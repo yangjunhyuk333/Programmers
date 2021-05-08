@@ -52,7 +52,7 @@ face에 해당하는 의상이 crow_mask, blue_sunglasses, smoky_makeup이므로
 3. smoky_makeup
 ~~~
 ------------
-##풀이   
+## 풀이   
 HashMap map을 선언하고 매개변수로 주어진 clothes 2차원 배열의 2번째 요소들만 접근하여
 Hash 값으로 저장을 한다. 이때 Value값은 만약 map HashMap안에 중복 되는 값이 있다면
 key + 1을 하고 중복이 아니라면 1을 put해준다.
