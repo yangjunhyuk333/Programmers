@@ -1,4 +1,4 @@
-package binary_search.tree.find_number;
+package binary_search.find_number;
 
 import java.util.ArrayList;
 import java.util.Collections;
