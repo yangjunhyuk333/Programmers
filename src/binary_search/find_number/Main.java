@@ -22,11 +22,7 @@ public class Main {
         }
 
         for (Integer arrayB : arrayListB) {
-            if (Collections.binarySearch(arrayListA, arrayB) >= 0){
-                System.out.println(1);
-            }else {
-                System.out.println(0);
-            }
+            System.out.println(Collections.binarySearch(arrayListA, arrayB));
         }
     }
 }
