@@ -10,15 +10,16 @@ public class Main {
 
         int count = Integer.parseInt(bf.readLine());
         String[] arrayA = bf.readLine().split(" ");
-        LinkedList<String> arrayListA = new LinkedList<>(Arrays.asList(arrayA).subList(0, count));
+        ArrayList<String> arrayListA = new ArrayList<>(Arrays.asList(arrayA).subList(0, count));
 
         Collections.sort(arrayListA);
 
         count = Integer.parseInt(bf.readLine());
         String[] arrayB = bf.readLine().split(" ");
-        LinkedList<String> arrayListB = new LinkedList<>(Arrays.asList(arrayB).subList(0, count));
+        ArrayList<String> arrayListB = new ArrayList<>(Arrays.asList(arrayB).subList(0, count));
 
         int numberCount = 0;
+
         for (String arrayItem : arrayListB) {
             while (true) {
                 int findNumber = Collections.binarySearch(arrayListA, arrayItem);
