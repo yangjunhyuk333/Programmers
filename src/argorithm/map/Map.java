@@ -19,6 +19,7 @@ public class Map {
         int[] mapCursor = {1, 1};
 
         for(String move : moving){
+
             if(move.equals("R") && mapCursor[1] < scanCount){ //오른쪽 한 칸 이동
                 mapCursor[1] += 1;
             } else if(move.equals("D") && mapCursor[0] < scanCount){ // 아래 한 칸 이동
