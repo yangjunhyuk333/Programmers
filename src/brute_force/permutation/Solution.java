@@ -24,15 +24,6 @@ class Solution {
                     }
                 }
             }
-
-            for(int i = 2; i <= (int)Math.sqrt(key); i++){
-
-                if(key % i == 0){
-                    set.put(key, true);
-
-                    break;
-                }
-            }
         }
 
         for(int key : set.keySet()){

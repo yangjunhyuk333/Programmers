@@ -35,5 +35,11 @@ numbers는 0~9까지 숫자만으로 이루어져 있습니다.
 ### 순열이란?   
 - 서로 다른 n 개에서 r개를 택하여 일렬로 배열하는 것을 n 개에서 r개를 택하는 순열   
 - nPr로 나타낸다.
-
+     
+<img src=https://user-images.githubusercontent.com/56965398/120416363-fe5e4100-c397-11eb-8e88-0e9b2848b682.jpg width="100%">
+  
+    
+### 코드 설명   
+<img src=https://user-images.githubusercontent.com/56965398/120416538-48dfbd80-c398-11eb-9e99-1a0404d1618b.jpg width = "100%">   
+<img src=https://user-images.githubusercontent.com/56965398/120416720-8fcdb300-c398-11eb-92c9-8d65597011e4.jpg width="100%">
 
