@@ -6,6 +6,6 @@ public class Main {
         int target = 3;
 
         Solution solution = new Solution();
-        solution.solution(numbers, target);
+        System.out.println(solution.solution(numbers, target));
     }
 }

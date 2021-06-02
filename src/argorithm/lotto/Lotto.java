@@ -8,9 +8,18 @@ public class Lotto {
     public static void main(String[] args){
 
         Random random = new Random();
-        for(int i = 0; i < 5; i++){
-            System.out.print(random.nextInt(45) + " ");
+
+        HashSet<Integer> set = new HashSet<>();
+
+        while(set.size() < 5){
+            set.add(random.nextInt(45));
         }
+
+        ArrayList<Integer> arrayList = new ArrayList<>(set);
+        for(int item : arrayList){
+            System.out.print(item + " ");
+        }
+
 
     }
 

@@ -14,20 +14,21 @@ public class Square {
 
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
-        int round = Integer.parseInt(bf.readLine());
-        int max = round / 2; //가로 변의 합과 세로 변의 합의 최댓값
+        double round = Integer.parseInt(bf.readLine());
+        double max = round / 2; //가로 변의 합과 세로 변의 합의 최댓값
 
-        ArrayList<Integer> answerList = new ArrayList<>();
+        ArrayList<Double> answerList = new ArrayList<>();
 
         for(int i = 0; i < max; i++){
             for(int j = 2; j > 1; j--){
-                answerList.add(((i + 1) / 2) * ((max)/j));
+                answerList.add((((double)i + 1) / 2) * ((max)/(double)j));
             }
         }
 
         answerList.sort(Collections.reverseOrder());
 
         System.out.println(answerList.get(0));
+        System.out.println(answerList);
 
     }
 
